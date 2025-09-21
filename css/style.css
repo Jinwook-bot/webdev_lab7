@@ -39,6 +39,7 @@ h1 {
 #planets tbody tr:nth-child(odd) {
   background-color: #1a1a1a;
 }
+
 #planets tbody tr:nth-child(even) {
   background-color: #0d0d0d;
 }
@@ -55,10 +56,10 @@ h1 {
 }
 
 .planet-img {
-  width: 60px;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  margin: 0 auto;
   border-radius: 50%;
   border: 2px solid #555;
 }
